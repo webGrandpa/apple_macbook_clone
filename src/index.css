@@ -88,7 +88,7 @@ body {
 }
 
 @layer components {
-  header {
+  /* header {
     @apply w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh];
 
     nav {
@@ -110,9 +110,9 @@ body {
         }
       }
     }
-  }
+  } */
 
-  #hero {
+  /* #hero {
     @apply h-fit lg:h-[80vh] col-center mt-40 lg:mt-20 2xl:mt-[7vh];
 
     div {
@@ -138,7 +138,7 @@ body {
     p {
       @apply lg:h3-semibold base-semibold;
     }
-  }
+  } */
 
   #product-viewer {
     @apply container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40;

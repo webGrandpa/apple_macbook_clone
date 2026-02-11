@@ -2,25 +2,35 @@ import { navLinks } from '../constants'
 
 const NavBar = () => {
   return (
-    <header>
-        <nav>
-            <img src="/logo.svg" alt="Apple logo" />
+    <header className='w-screen fixed top-0 left-0 z-50 flex-center bg-black min-h-[7vh]'>
+        <nav className='container mx-auto flex-between px-5 2xl:px-0'>
+            <img 
+            className='cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out'
+            src="/logo.svg" alt="Apple logo" />
 
-            <ul>
+            <ul className='flex-center gap-8'>
                 {
                     navLinks.map(({label}) => (
                         <li key={label}>
-                            <a href={label}>{label}</a>
+                            <a 
+                            className='hidden md:block text-white opacity-80 font-regular text-sm cursor-pointer hover:opacity-100 transition-all duration-300 ease-in-out'
+                            href={label}>{label}</a>
                         </li>
                     ))
                 }
             </ul>
             <div className="flex-center gap-3">
-                <button>
-                    <img src="/search.svg" alt="search" />
+                <button 
+                className='bg-transparent border-none outline-none cursor-pointer'>
+                    <img 
+                    className='cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out'
+                    src="/search.svg" alt="search" />
                 </button>
-                <button>
-                    <img src="/cart.svg" alt="cart" />
+                <button 
+                className='bg-transparent border-none outline-none cursor-pointer'>
+                    <img 
+                    className='cursor-pointer hover:-translate-y-0.5 transition-all duration-300 ease-in-out'
+                    src="/cart.svg" alt="cart" />
                 </button>
             </div>
         </nav>
