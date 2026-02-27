@@ -16,7 +16,7 @@ const Hero = () => {
             >
                 Built for Apple Intelligence.
             </h1>
-            <h1 className="relative text-2xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-purple-300 to-orange-300 drop-shadow-[0_0_15px_rgba(255,255,255,0.7)]">
+            <h1 className="leading-loose relative text-2xl md:text-7xl bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 via-purple-300 to-orange-300 drop-shadow-[0_0_15px_rgba(255,255,255,0.7)]">
                 Built for Apple Intelligence.
             </h1>
         </div>

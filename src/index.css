@@ -141,12 +141,12 @@ body {
   } */
 
   #product-viewer {
-    @apply container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40;
+    /* @apply container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40; */
 
-    h2 {
+    /* h2 {
       @apply text-white font-semibold text-3xl lg:text-6xl;
-    }
-
+    } */
+/* 
     .controls {
       @apply absolute z-50 bottom-40 lg:bottom-40 2xl:bottom-52 left-1/2 -translate-x-1/2;
 
@@ -173,7 +173,7 @@ body {
           @apply size-8 rounded-full cursor-pointer bg-white text-black flex-center;
         }
       }
-    }
+    } */
 
     #canvas {
       @apply !w-full !h-[80vh] lg:!h-dvh relative z-40;
@@ -431,3 +431,5 @@ body {
     }
   }
 }
+
+
