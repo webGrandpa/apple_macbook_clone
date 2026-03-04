@@ -1,4 +1,8 @@
+import useMacbookStore from "../store"
+
 const ProductViewer = () => {
+
+    const { color, scale, setColor, setScale } = useMacbookStore();
   return (
     <section 
     className="container relative min-h-[93vh] mx-auto px-5 2xl:px-0 mt-40"
